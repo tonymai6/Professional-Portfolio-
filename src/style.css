@@ -1,0 +1,79 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define custom color variables */
+:root {
+  --primary-color: #2d4059;
+  --secondary-color: #ea5455;
+  --text-color: #fff;
+}
+
+/* Set body font and text color */
+body {
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+  padding: 20px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* Style the header title */
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 32px;
+  color: var(--text-color);
+}
+
+/* Style header links */
+header a {
+  text-decoration: none;
+  color: var(--text-color);
+  margin-right: 20px;
+}
+
+/* Style header navigation */
+header nav {
+  margin: 0;
+}
+
+/* Style header navigation list */
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+/* Style header navigation links */
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Style header navigation link on hover */
+header nav ul li a:hover {
+  background-color: var(--primary-color);
+}
