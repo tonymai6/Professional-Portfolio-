@@ -1,7 +1,14 @@
-# HTML-CSS Practice
+## 02 Advanced CSS Professional Profile 
 
-This includes webhint, stylelint, and prettier.
+## Purpose
+A website to show off previous as a Full Stack Web Developer
 
-VS Code settings are included to streamline the process. Stylelint extension and prettier are there too for real time feedback. Because of the settings, Prettier will auto-format whenever you move out of the file.
+## Built Using
+HTML/CSS
 
-Run `npm install` to install the dependencies. Then, run `npm start` to start the server.
+## Description
+Used html to build the fondation. CSS used to style page and ensure spacing between previous works and text are up to standard 
+
+## Screenshot
+
+![Professional profile ](https://user-images.githubusercontent.com/114831060/227809835-2f95a9f9-784a-49f4-a26b-185cf0c33e91.jpg)
